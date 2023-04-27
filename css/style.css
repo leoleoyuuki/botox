@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,900&display=swap');
+
+
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+/* reset */
+
+/* fontes */
+.f1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+.f2{
+    font-family:'Playfair Display', serif;
+    font-weight: 700;
+}
+.f3{
+    font-family: 'Playfair Display', serif;;
+    font-weight: 900;
+    font-style: italic;
+}
+/* fontes */
+
+
+
+body{
+    background: #FA7C7A;
+    height: 2210px;
+}
+
+.fundo{
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
+    height: 810px;
+    z-index: -1;
+}
+
+.main{
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
+    height: 810px;
+    text-align: center;
+}
+.tit1{
+    font-style: italic;
+font-weight: 800;
+font-size: 43px;
+line-height: 57px;
+text-align: center;
+
+color: #FF7B7B;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tit2{
+    font-style: italic;
+font-weight: 900;
+font-size: 43px;
+line-height: 57px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+section{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.psec{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.logo{
+    padding-top: 50px;
+    padding-left: 5vw;
+    text-align: center;
+    width: 100%;
+    min-width: 200px;
+}
+
+.pag2{
+    width: 100%;
+    min-width: 200px;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.center{
+    width: 80%;
+    margin: 10% auto;
+}
+.circle{
+    text-align: center;
+}
+
+.pag2 h1, .pag2 h2{
+    text-align: center;
+}
+
+.wraph1{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 31px;
+/* identical to box height */
+margin: 0 0;
+text-align: left;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+.imgwraper{
+    text-align: center;
+}
+
+.botaob{
+    text-align: center;
+}
+
+.baixo{
+    margin-top: 50px;
+}
